@@ -22,7 +22,7 @@
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SUY-VI-TIc">
-                                <rect key="frame" x="16" y="59" width="361" height="349"/>
+                                <rect key="frame" x="16" y="59" width="361" height="347"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                             </view>
@@ -33,7 +33,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="334" y="24"/>
+            <point key="canvasLocation" x="333.58778625954199" y="23.943661971830988"/>
         </scene>
     </scenes>
     <resources>
