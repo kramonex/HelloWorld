@@ -16,19 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2WP-Kn-PDh">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2WP-Kn-PDh">
                                 <rect key="frame" x="16" y="447" width="361" height="371"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SUY-VI-TIc">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SUY-VI-TIc">
                                 <rect key="frame" x="16" y="59" width="361" height="347"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SUY-VI-TIc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QUw-ic-m8u"/>
+                            <constraint firstItem="2WP-Kn-PDh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="U6L-hs-djo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SUY-VI-TIc" secondAttribute="trailing" constant="16" id="Xo4-PD-PXv"/>
+                            <constraint firstItem="2WP-Kn-PDh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aIK-Xh-O8Z"/>
+                            <constraint firstItem="2WP-Kn-PDh" firstAttribute="top" secondItem="SUY-VI-TIc" secondAttribute="bottom" constant="41" id="fsm-de-ote"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2WP-Kn-PDh" secondAttribute="trailing" constant="16" id="q9N-uW-pBp"/>
+                            <constraint firstItem="SUY-VI-TIc" firstAttribute="height" secondItem="2WP-Kn-PDh" secondAttribute="height" multiplier="0.93531" id="rE3-gZ-aC3"/>
+                            <constraint firstItem="2WP-Kn-PDh" firstAttribute="top" secondItem="SUY-VI-TIc" secondAttribute="bottom" constant="41" id="wSe-od-anD"/>
+                            <constraint firstItem="SUY-VI-TIc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="yv4-GS-JQC"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
